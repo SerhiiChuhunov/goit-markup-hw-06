@@ -669,7 +669,7 @@ img {
 .address {
     display: flex;
     align-items: baseline;
-
+    justify-content: space-between;
 }
 
 .address-nav .item+.item {
@@ -691,9 +691,12 @@ img {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.footer-container {
+    margin-left: 70px;
+}
+
 .footer-container .title {
     margin-top: 0;
-    margin-left: 156px;
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -704,7 +707,6 @@ img {
 
 .social {
     display: flex;
-    margin-left: 156px;
 }
 
 .social .link {
@@ -754,7 +756,7 @@ img {
     margin-right: 12px;
     font-size: 16px;
     line-height: 1.25;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--primary-white-color);
     background-color: transparent;
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 4px;
